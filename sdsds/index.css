@@ -1,0 +1,33 @@
+body {
+background-color: rgb(230, 233, 202);
+padding-left: 60px;
+
+}
+.tituloinicio{
+color:blueviolet;  
+text-align:center;
+font-size: 50px;
+}  <!--comertario--> 
+
+.nav-inicio{
+    text-align: center;
+}
+.titulodesc {
+color: rgb(72, 1, 131);
+
+}
+.img-taller{
+    width:30%;
+}
+.sabermas1{
+    display: block;
+    margin-top: 10px;
+}
+
+.img-erasmus{
+    width:30%;
+}
+.sabermas2{
+    display: block;
+    margin-top: 10px;
+}
