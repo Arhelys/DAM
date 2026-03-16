@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    
     <div class="inicio">
         <h1 class="titulo-inicio"> Things about me </h1>
             <nav class="nav-inicio">
@@ -18,8 +19,45 @@
                 <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png"width="30px"></a>
 
             </nav>
+    </div> 
+
+    <div class="formulario">
+        <div class="title">
+            <form action="form-group">
+                <div class="que-tal">
+                    <span>¿Qué tal estas hoy?</span>
+                    <input type="text" placeholder="...">
+                </div>
+                <div class="mascotas">
+                    <span>¿Tienes mascotas?</span>
+                    <input type="text" placeholder="si/no">
+                </div>
+                <div class="caricia">
+                    <span>Si tienes ¿Le acariciaste hoy??</span>
+                    <input type="text" placeholder="si/no">
+                    <p>ve a acariciarle, seguro que le hace feliz</p>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+        <script>
+        const addform=document.getElementById
+        ("form-validation");
+        addform.addEventListener("sumit", (e)=>{
+        if(addform.checkValidity() ===false){
+            e.preventDefault();
+            e.stopPropagation();
+            addform.classList.add("vaidado");
+            return false
+        }
+        })
+
+    </script>
     </div>
     
+
     <header class="Sobre-esto">
         <h2 class="sobre-esto-h2"> Descripción</h2>
         <p>Holaa, esta es una página web que estoy haciendo para entretenerme. Aquí publicaremos cositas que haga en mi dia a dia o que me interesen.

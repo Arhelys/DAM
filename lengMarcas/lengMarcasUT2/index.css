@@ -14,7 +14,14 @@ background-color: rgb(255, 255, 255);
     font-size: 30px;
 }
 }
+.formulario{
+margin-top: 30px;
+text-align: center;
+
+}
 .publicacion1{
+    background-color: rgb(185, 150, 218);
+    border-radius: 5%;
     .publi1-img1{
         width: 10%;
     }
