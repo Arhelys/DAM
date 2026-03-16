@@ -1,0 +1,29 @@
+body{
+background-color: rgb(255, 255, 255);
+}
+.inicio{
+.titulo-inicio{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+
+}
+.nav-inicio{
+    text-align: center;
+    color: rgb(55, 0, 255);
+    font-size: 30px;
+}
+}
+.publicacion1{
+    .publi1-img1{
+        width: 10%;
+    }
+    .publi1-img2{
+        width: 13%;
+    }
+ }
+.publicacion2{
+    .publi2-img1{
+        width: 15%;
+    }
+ }
