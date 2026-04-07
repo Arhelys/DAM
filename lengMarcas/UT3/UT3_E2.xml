@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StoreTech>
+	<departamentos nombre="227">
+		<departamento>
+			<id>1</id>
+			<nombre>RRHH</nombre>
+			<empleados>
+				<empleado id="1">
+					<nombre>Manolo Coslosa</nombre>
+					<salario>30.000</salario> 
+					<cargo>jefe departamento</cargo>
+				</empleado>
+				<empleado id="3">
+					<nombre>Rafael Guerrero</nombre>
+					<salario>24.000</salario>
+					<cargo>junior</cargo>
+				</empleado>
+			</empleados>
+		</departamento>
+		<departamento id="1"> 
+			<nombre>marketing</nombre>
+			<empleados>
+				<empleado id="2">
+					<nombre>Sara Guijarro</nombre>
+					<salario>40.000</salario>
+					<cargo>jefa departamento</cargo>
+				</empleado>
+			</empleados>
+		</departamento>
+	</departamentos>	
+	<nombre>Store Tech S.L.</nombre>
+	<productos>
+		<producto id="1">
+			<categoria>Electronica</categoria>
+			<cantidad>32</cantidad>
+			<precioUnidad>2</precioUnidad>
+		</producto>
+	</productos>
+	<Ventas>
+		<venta id="1">
+			<cantidad>1</cantidad>
+			<ganancia>2</ganancia>
+		</venta>
+	</Ventas>
+</StoreTech>
